@@ -1,5 +1,5 @@
 #include <string>
-#include "token.h"
+#include "Token.h"
 
 Token::Token(TokenType typeV, std::string lexemeV, Object literalV, int lineV) {
     type = typeV;
